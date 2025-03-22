@@ -37,6 +37,14 @@ function Navbar() {
   );
 }
 
+function Footer() {
+  return (
+    <footer className="footer">
+      <p>&copy; 2025 Demo Website. All rights reserved.</p>
+    </footer>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -55,6 +63,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
