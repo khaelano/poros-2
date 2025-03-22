@@ -24,6 +24,9 @@ function Navbar() {
           Home
         </a>
         <a href="#" style={linkStyle}>
+          Products
+        </a>
+        <a href="#" style={linkStyle}>
           About
         </a>
         <a href="#" style={linkStyle}>
