@@ -20,13 +20,13 @@ function Navbar() {
     <nav style={navbarStyle}>
       <img src={logo} alt="logo" style={{ height: "40px" }} />
       <div>
-        <a href="#" style={linkStyle}>
+        <a href="/" style={linkStyle}>
           Home
         </a>
-        <a href="#" style={linkStyle}>
+        <a href="/about" style={linkStyle}>
           About
         </a>
-        <a href="#" style={linkStyle}>
+        <a href="/contact" style={linkStyle}>
           Contact
         </a>
       </div>
